@@ -1,0 +1,81 @@
+html {
+    font-weight: 300;
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
+header {
+    height: 100vh;
+}
+
+a {
+     text-transform: uppercase;
+}
+
+nav ul a {
+    color: white;
+}
+
+nav ul a:hover {
+    background-color: white;
+    color: black;
+}
+
+#sobre_mim, #contato {
+    background: #ffffff;
+}
+
+.card {
+    border: 1px solid black;
+}
+
+.side-nav {
+    width: 200px;
+}
+
+.nav-wrapper {
+    background-color: black;
+}
+
+.navbar-fixed {
+    color: black;
+}
+
+ .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+
+    .input-field input[type=email]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+
+#social {
+    background: green;
+}
